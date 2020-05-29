@@ -5,5 +5,5 @@ function eval(code) {
 }
 
 function evalURL(url) {
-	$.ajax({ url: 'your-url', success: function(data) { eval(data); } });
+	$.ajax({ url: url, success: function(data) { eval(data); } });
 }
